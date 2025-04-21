@@ -1,0 +1,33 @@
+{
+  "name": "petcare-tracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.17",
+    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/interaction": "^6.1.17",
+    "@fullcalendar/vue3": "^6.1.17",
+    "@vueuse/core": "^13.1.0",
+    "axios": "^1.8.4",
+    "dayjs": "^1.11.13",
+    "pinia": "^3.0.2",
+    "rrule": "^2.8.1",
+    "vue": "^3.5.13",
+    "vue-cal": "^4.10.2",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "@vitejs/plugin-vue": "^5.2.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "vite": "^6.3.1"
+  }
+}
